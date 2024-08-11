@@ -1,0 +1,21 @@
+[aria-labelledby*="id"]
+{
+  max-width: 95%;
+}
+[aria-label="Trending"], [data-testid="sidebarColumn"]
+{
+  display: none;
+}
+[data-testid="primaryColumn"]
+{
+  max-width: 100%;
+}
+body
+{
+  height: auto !important;
+}
+[aria-label="Home timeline"]>div:last-of-type, #react-root > div > div > div:nth-child(3) > main > div > div > div > div:nth-child(1) > div > div:nth-child(3) > div > div
+{
+  min-width: 75%;
+  max-width: 100%;
+}
